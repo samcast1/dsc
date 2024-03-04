@@ -1,0 +1,50 @@
+What can you infer about the nature of these variables, as output by the info() method?
+
+    These variables are measurements taken in a lab with great precision.
+
+Which variables might be suitable for regression analysis, and why? For those variables that aren't suitable for regression analysis, is there another type of statistical modeling for which they are suitable?
+    
+    Most of these appear suitable for regression analysis as they are variable floats. Quality, however appears to be a category sotred as an integer, so that may be best for a classification analysis of some sort.
+    
+We can see so much about the quality variable just from this simple visualization. Answer yourself: what value do most wines have for quality? What is the minimum quality value below, and the maximum quality value? What is the range? Remind yourself of these summary statistical concepts by looking at p.49 of the AoS.
+
+    Most wines are rated quality = 5 with a range of 3 to 8. 
+
+But can you think of a problem with making this variable the dependent variable of regression analysis? Remember the example in AoS on p.122 of predicting the heights of children from the heights of parents? Take a moment here to think about potential problems before reading on.
+
+    These values are discrete measurements, which are not appropriate for linear regression.
+
+Take a moment to think about the following questions:
+
+How does color relate to extent of correlation?
+    
+    The color bar on the side denotes this relationship.
+    
+How might we use the plot to show us interesting relationships worth investigating?
+
+    The plot reveals strongest correlations according to color.
+    
+More precisely, what does the heatmap show us about the fixed acidity variable's relationship to the density variable?
+    
+    The heatmap reveals fixed acidity has a strong positive correlation with density.
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
